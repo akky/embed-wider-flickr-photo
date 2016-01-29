@@ -2,7 +2,7 @@
 
 use \Akky\EmbedWiderFlickrPlugin;
 
-class RegexTest extends WP_UnitTestCase {
+class RegexTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 */

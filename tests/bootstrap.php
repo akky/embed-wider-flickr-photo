@@ -1,15 +1,31 @@
 <?php
 
-$_tests_dir = getenv( 'WP_TESTS_DIR' );
-if ( ! $_tests_dir ) {
-	$_tests_dir = '/tmp/wordpress-tests-lib';
+/**
+ * Licensed under The MIT License
+ * For full copyright and license information, please see the LICENSE file.
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright (c) {{YEAR}}, {{COPYRIGHT}}
+ * @link {{HOMEPAGE}}
+ * @license http://opensource.org/licenses/mit-license.php The MIT License (MIT)
+ */
+
+/**
+ * Phpunit bootstrap file
+ *
+ * @author {{AUTHOR}} <{{EMAIL}}>
+ */
+
+$basePath = realpath(__DIR__ . '/..');
+$autoload = $basePath . "/vendor/autoload.php";
+
+if (!file_exists($autoload)) {
+    die(<<<MSG
+ Please run "composer install" to install dependencies and create autoload file.
+
+MSG
+    );
 }
 
-require_once $_tests_dir . '/includes/functions.php';
-
-function _manually_load_plugin() {
-	require dirname( dirname( __FILE__ ) ) . '/embed-wider-flickr-photo.php';
-}
-tests_add_filter( 'muplugins_loaded', '_manually_load_plugin' );
-
-require $_tests_dir . '/includes/bootstrap.php';
+$loader = require $autoload;
+$loader->addPsr4('Fixture\\', 'tests/Fixture');

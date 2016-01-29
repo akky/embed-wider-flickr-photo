@@ -7,7 +7,9 @@ env:
   - WP_VERSION=latest WP_MULTISITE=0
 
 before_script:
-  - bash bin/install-wp-tests.sh wordpress_test root '' localhost $WP_VERSION
+  - composer self-update
+  - composer install --dev --prefer-source --no-interaction
 
 script:
-  - phpunit --configuration phpunit.xml
+  - mkdir -p build/logs
+  - phpunit --coverage-clover build/logs/clover.xml --configuration phpunit.xml
