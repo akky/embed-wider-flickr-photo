@@ -9,8 +9,6 @@ namespace Akky;
 //add_filter( 'embed_handler_html', 'embed_wider_flickr', 80, 4);
 //add_filter('embed_oembed_html', 'embed_wider_flickr', 80, 4);
 
-new EmbedWiderFlickrPlugin();
-
 class EmbedWiderFlickrPlugin {
    public function __construct() {
     load_plugin_textdomain('embed-wider-flickr-plugin', false,

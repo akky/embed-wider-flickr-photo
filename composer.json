@@ -1,0 +1,24 @@
+{
+    "name": "akky/embed-wider-flickr-photo",
+    "description": "Make Flickr embedded photo on WordPress wider",
+    "license": "Apache",
+    "type": "library",
+    "homepage": "https://github.com/akky/embed-wider-flickr-photo",
+    "authors": [
+        {
+            "name": "Akky AKIMOTO",
+            "homepage": "http://developer.cybozu.co.jp/akky/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akky\\": "src/"
+        }
+    }
+}

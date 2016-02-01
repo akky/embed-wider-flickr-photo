@@ -17,7 +17,10 @@ defined( 'ABSPATH' ) || exit;
 
 if ( version_compare( PHP_VERSION, '5.5', '>=' ) ) {
 	// call modern PHP scripts
-	require_once 'main.php';
+	require_once __DIR__ . '/vendor/autoload.php';
+
+	new \Akky\EmbedWiderFlickrPlugin();
+	//require_once 'main.php';
 } else {
 	/**
      * PHP version is too old.
