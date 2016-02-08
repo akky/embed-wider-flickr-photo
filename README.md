@@ -1,3 +1,5 @@
+[![Build Status](https://api.travis-ci.org/akky/embed-wider-flickr-photo.png?branch=master)](https://travis-ci.org/akky/embed-wider-flickr-photo)
+
 # embed-wider-flickr-photo
 WordPress plugin to make oembed-embedded Flickr photo wider
 
