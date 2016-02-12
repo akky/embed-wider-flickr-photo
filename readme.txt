@@ -16,6 +16,7 @@ Flickr\'s photo URL is automatically extracted as an embedded photo on WordPress
 
 This simple plugin, let WordPress takes larger image from Flickr. The larger image would match better and more beautiful in wide themes.
 
+This plugin works with PHP 5.5 or above.
 
 == Installation ==
 
@@ -36,6 +37,9 @@ no screenshots yet
 
 = 1.0 =
 * Initial version
+
+= 1.0.1 =
+* added a missing file
 
 == Upgrade Notice ==
 
