@@ -93,6 +93,6 @@ class EmbedWiderFlickrPlugin {
   }
 
   public static function composeFlickrImageHtml($url, $src, $alt, $width) {
-    return "<a href=\"{$url}\"><img src=\"$src\" alt=\"$alt\" width=\"$width\" /></a>";
+    return "<a href=\"{$url}\"><img src=\"$src\" alt=\"$alt\"  style='width:100%; max-width: " . $width . "px;' /></a>";
   }
 }

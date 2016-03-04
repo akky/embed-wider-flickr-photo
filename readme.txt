@@ -3,7 +3,7 @@ Contributors: akky
 Donate link: akimoto on gmail
 Tags: Flickr, oembed, width, embed, photo, size, wide
 Requires at least: 4.4.1
-Tested up to: 4.4.1
+Tested up to: 4.4.2
 Stable tag: stable
 License: Apache License
 License URI: http://www.apache.org/licenses/LICENSE-2.0
@@ -12,7 +12,7 @@ Flickr photo oembed extracted in larger size, for wide and responsible themes.
 
 == Description ==
 
-Flickr\'s photo URL is automatically extracted as an embedded photo on WordPress, however, the default size of the photo is thumbnail size and for most case too small.
+By oembed, Flickr's photo URL is automatically extracted as an embedded photo on WordPress, however, the default size of the photo is thumbnail size and for most blogs it is too small.
 
 This simple plugin, let WordPress takes larger image from Flickr. The larger image would match better and more beautiful in wide themes.
 
@@ -35,11 +35,15 @@ no screenshots yet
 
 == Changelog ==
 
-= 1.0 =
-* Initial version
+= 1.0.2 =
+* made width:100% for responsive theme
+* removed unnecessary files only used for dev and test
 
 = 1.0.1 =
 * added a missing file
+
+= 1.0 =
+* Initial version
 
 == Upgrade Notice ==
 
