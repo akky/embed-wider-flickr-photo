@@ -2,7 +2,7 @@
 /*
 Plugin Name: Embed Wider Flickr Photo
 Plugin URI: http://akimoto.jp/blog/
-Version: 1.0.1
+Version: 1.0.2
 Description: Enable larger photos when oembed from Flickr URL
 Author: Akky AKIMOTO
 Author URI: http://akimoto.jp/
