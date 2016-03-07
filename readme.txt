@@ -33,7 +33,7 @@ Maybe in future.
 
 == Screenshots ==
 
-no screenshots yet
+1. How embedded Flickr photo looks different with this plugin.
 
 == Changelog ==
 
