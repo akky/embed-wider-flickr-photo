@@ -16,6 +16,8 @@ By oembed, Flickr's photo URL is automatically extracted as an embedded photo on
 
 This simple plugin, let WordPress takes larger image from Flickr. The larger image would match better and more beautiful in wide themes.
 
+Because you just paste Flickr photo URLs, your post contents are not affected by Flickr's embedded code change. If there will be another plugin, you can change how Flickr photos are embedded on whole site, without modifying each embedded code.
+
 This plugin works with PHP 5.5 or above.
 
 == Installation ==
@@ -34,6 +36,9 @@ Maybe in future.
 no screenshots yet
 
 == Changelog ==
+
+= 1.0.3 =
+* some clean-ups
 
 = 1.0.2 =
 * made width:100% for responsive theme

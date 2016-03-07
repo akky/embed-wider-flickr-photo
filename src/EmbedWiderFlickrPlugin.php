@@ -6,8 +6,6 @@ namespace Akky;
 // force Flickr to show larger size photo, instead of default 320px
 // http://wordpress.stackexchange.com/questions/14434/add-filter-to-youtube-embeds
 // http://wordpress.stackexchange.com/questions/77745/how-to-increase-image-size-returned-from-flickr-oembed-in-twenty-twelve-theme
-//add_filter( 'embed_handler_html', 'embed_wider_flickr', 80, 4);
-//add_filter('embed_oembed_html', 'embed_wider_flickr', 80, 4);
 
 class EmbedWiderFlickrPlugin {
    public function __construct() {
