@@ -3,7 +3,7 @@ Contributors: akky
 Donate link: akimoto on gmail
 Tags: Flickr, oembed, width, embed, photo, size, wide
 Requires at least: 4.4.1
-Tested up to: 4.4.2
+Tested up to: 4.6.1
 Stable tag: stable
 License: Apache License
 License URI: http://www.apache.org/licenses/LICENSE-2.0
@@ -36,6 +36,9 @@ Maybe in future.
 1. How embedded Flickr photo looks different with this plugin.
 
 == Changelog ==
+
+= 1.0.4 =
+* tested with the latest WordPress 4.6.1
 
 = 1.0.3 =
 * some clean-ups
