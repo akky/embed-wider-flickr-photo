@@ -11,10 +11,13 @@
         }
     ],
     "require": {
-        "php": ">=5.5.1"
+        "php": ">=7.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "5.1.*"
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --color"
     },
     "autoload": {
         "psr-4": {

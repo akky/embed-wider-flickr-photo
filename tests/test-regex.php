@@ -1,8 +1,9 @@
 <?php
 
+use PHPUnit\Framework\TestCase;
 use \Akky\EmbedWiderFlickrPlugin;
 
-class RegexTest extends PHPUnit_Framework_TestCase {
+class RegexTest extends TestCase {
 
 	/**
 	 */
