@@ -8,9 +8,9 @@ Details are in WordPress style [readme.txt](https://github.com/akky/embed-wider-
 
 # requirements
 
-  * PHP5.5 or above
-  * WordPress 4.4.1 or above
-  * phpunit 5.1.6 or above (test requires PHP5.6 or above)
+  * PHP7.1 or above
+  * WordPress 5.9.3 or above
+  * phpunit 9.5 or above
 
 # deployment note
 
